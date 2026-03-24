@@ -420,36 +420,7 @@ export default function Index() {
               </p>
             </div>
 
-            <h2 className="font-display text-3xl md:text-4xl font-light text-gray-700 mb-3">
-              Получи чек-лист дружбы 💌
-            </h2>
-            <p className="font-body text-gray-500 mb-8">
-              PDF с правилами, признаками и подсказками — на почту
-            </p>
 
-            {subscribed ? (
-              <div className="inline-flex items-center gap-2 px-6 py-4 bg-green-50 border border-green-200 rounded-full font-body text-green-700">
-                <Icon name="Check" size={18} />
-                Отправили на почту! Проверяй входящие 🎉
-              </div>
-            ) : (
-              <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="твоя@почта.ru"
-                  className="flex-1 px-5 py-4 rounded-full border border-pink-200 bg-white/80 font-body text-gray-700 outline-none focus:border-pink-400 focus:ring-2 focus:ring-pink-100 transition-all"
-                />
-                <button
-                  onClick={() => email && setSubscribed(true)}
-                  className="px-7 py-4 rounded-full text-white font-body font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg whitespace-nowrap"
-                  style={{ background: "linear-gradient(135deg, #e91e8c, #ff8a65)" }}
-                >
-                  Получить ✨
-                </button>
-              </div>
-            )}
 
             <p className="mt-14 font-body text-xs text-gray-400">
               Girl Code © 2024 — Твоя безопасная зона о настоящей дружбе
