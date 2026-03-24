@@ -228,6 +228,12 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+          <p
+            className="font-body text-sm tracking-widest uppercase text-pink-400 mb-6"
+            style={{ animation: "fade-up 0.6s ease forwards", opacity: 0 }}
+          >
+            Girl code: неписанные правила женской дружбы
+          </p>
           <h1
             className="font-display text-7xl md:text-9xl font-light leading-none mb-5 text-gradient"
             style={{ animation: "fade-up 0.7s ease forwards 0.2s", opacity: 0 }}
