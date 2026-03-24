@@ -228,12 +228,6 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-          <div
-            className="inline-block mb-6 px-4 py-2 bg-white/60 backdrop-blur rounded-full text-sm font-body text-pink-600 border border-pink-200"
-            style={{ animation: "fade-up 0.6s ease forwards" }}
-          >
-            💖 для девушек 12–17 лет
-          </div>
           <h1
             className="font-display text-7xl md:text-9xl font-light leading-none mb-5 text-gradient"
             style={{ animation: "fade-up 0.7s ease forwards 0.2s", opacity: 0 }}
