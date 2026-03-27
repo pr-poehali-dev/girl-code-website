@@ -230,13 +230,13 @@ export default function Index() {
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
           <h1
             className="font-display text-4xl md:text-6xl font-semibold leading-tight mb-5"
-            style={{ color: "#e91e8c" }}
+            style={{ color: "#e91e8c", animation: "fade-up 0.7s ease forwards 0.2s", opacity: 0 }}
           >
             Girl code: неписанные правила женской дружбы
           </h1>
           <p
             className="font-body text-xl mb-10 max-w-lg mx-auto"
-            style={{ color: "#e91e8c" }}
+            style={{ color: "#e91e8c", animation: "fade-up 0.7s ease forwards 0.4s", opacity: 0 }}
           >
             Твоя безопасная зона о настоящей дружбе
           </p>
