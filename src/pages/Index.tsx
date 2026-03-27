@@ -228,27 +228,15 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-          <p
-            className="font-body text-sm tracking-widest uppercase text-pink-400 mb-6"
-            style={{ animation: "fade-up 0.6s ease forwards", opacity: 0 }}
-          >
-            Girl code: неписанные правила женской дружбы
-          </p>
           <h1
-            className="font-display text-7xl md:text-9xl font-light leading-none mb-5 text-gradient"
+            className="font-display text-4xl md:text-6xl font-semibold leading-tight mb-5 text-gradient"
             style={{ animation: "fade-up 0.7s ease forwards 0.2s", opacity: 0 }}
           >
-            Girl Code
+            Girl code: неписанные правила женской дружбы
           </h1>
-          <h2
-            className="font-display text-2xl md:text-3xl font-light text-gray-600 mb-4"
-            style={{ animation: "fade-up 0.7s ease forwards 0.4s", opacity: 0 }}
-          >
-            Неписанные правила
-          </h2>
           <p
-            className="font-body text-lg text-gray-500 mb-10 max-w-lg mx-auto"
-            style={{ animation: "fade-up 0.7s ease forwards 0.6s", opacity: 0 }}
+            className="font-body text-xl text-gray-500 mb-10 max-w-lg mx-auto"
+            style={{ animation: "fade-up 0.7s ease forwards 0.4s", opacity: 0 }}
           >
             Твоя безопасная зона о настоящей дружбе
           </p>
